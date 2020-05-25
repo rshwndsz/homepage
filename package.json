@@ -54,12 +54,12 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "postbuild": "mv public docs",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -b master -d public -r https://$GH_TOKEN@github.com/rshwndsz/rshwndsz.github.io.git",
     "test": "echo \"No testing yet!\""
   }
 }
