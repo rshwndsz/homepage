@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Russel Dsouza <rshwndsz@gmail.com>",
   "bugs": {
-    "url": "https://github.com/rshwndsz/rshwndsz.github.io/issues"
+    "url": "https://github.com/rshwndsz/homepage/issues"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
@@ -42,7 +42,7 @@
     "gh-pages": "^2.2.0",
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/rshwndsz/rshwndsz.github.io#readme",
+  "homepage": "https://github.com/rshwndsz/homepage#readme",
   "keywords": [
     "gatsby"
   ],
@@ -50,7 +50,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rshwndsz/rshwndsz.github.io"
+    "url": "https://github.com/rshwndsz/homepage"
   },
   "scripts": {
     "build": "gatsby build",
