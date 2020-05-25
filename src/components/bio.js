@@ -9,7 +9,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
-import { Link } from "gatsby"
 import Icon from "./icon"
 import getIcon from "../utils/getIcon"
 

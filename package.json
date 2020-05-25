@@ -54,7 +54,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "postbuild": "mv public/* dist",
+    "postbuild": "rsync -a public/* dist",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
