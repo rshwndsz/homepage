@@ -1,0 +1,9 @@
+name: homepage
+root: ~/myProjects/homepage
+windows:
+    - ide:
+        layout: 6530,238x52,0,0{157x52,0,0,4,80x52,158,0,5}
+        panes:
+            - nvim
+            -
+    - server: yarn develop
