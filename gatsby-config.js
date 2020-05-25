@@ -13,6 +13,20 @@ module.exports = {
       github: `rshwndsz`,
       linkedin: `rshwndsz`,
     },
+    menuLinks: [
+      {
+        name: 'home',
+        link: '/'
+      },
+      {
+        name: 'projects',
+        link: 'https://github.com/rshwndsz/'
+      },
+      {
+        name: 'cv',
+        link: 'https://github.com/rshwndsz/resume/blob/master/CV.pdf'
+      }
+    ],
   },
   plugins: [
     {

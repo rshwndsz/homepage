@@ -11,6 +11,7 @@ import Image from "gatsby-image"
 
 import Icon from "./icon"
 import getIcon from "../utils/getIcon"
+import { rhythm } from "../utils/typography"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -63,7 +64,13 @@ const Bio = () => {
       <h1> Russel Shawn Dsouza</h1>
 
       <p> {author.education} </p>
-      <div>
+      <div
+        style={{
+          display: `flex`,
+          flexDirection: `row`,
+          paddingRight: `${rhythm(1.5)}`
+        }}
+      >
         <a href="https://github.com/rshwndsz/"><Icon name={'github'} icon={getIcon('github')}/></a>
         <a href="https://linkedin.com/in/rshwndsz/"><Icon name={'linkedin'} icon={getIcon('linkedin')}/></a>
         <a href="mailto:rshwndsz@gmail.com"><Icon name={'email'} icon={getIcon('email')}/></a>

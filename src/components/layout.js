@@ -5,7 +5,7 @@ import React from "react"
 
 import { rhythm } from "../utils/typography"
 
-const Layout = ({ title, children }) => {
+const Layout = ({ children }) => {
   return (
     <div
       style={{
@@ -15,7 +15,6 @@ const Layout = ({ title, children }) => {
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
-
       <main> {children} </main>
 
     </div>

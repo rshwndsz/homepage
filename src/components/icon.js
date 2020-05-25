@@ -3,9 +3,12 @@ import React from "react"
 const Icon = ({ name, icon }) => {
   return (
     <svg style={{
-        display: `inline-block`,
-        width: `1.5em`,
-        height: `1.5em`,
+        display: `flex`,
+        justifyContent: `center`,
+        alignItems: `center`,
+        justifyItems: `center`,
+        width: `2em`,
+        height: `2em`,
         strokeWidth: 0,
         stroke: `currentColor`,
         fill: `currentColor`,
@@ -15,7 +18,7 @@ const Icon = ({ name, icon }) => {
         textAlign: `center`,
         fontVariant: `normal`,
         textTransform: `none`,
-        lineHeight: `1em`,
+        lineHeight: `.5em`,
         marginLeft: `.2em`,
     }}>
       <title>{name}</title>
