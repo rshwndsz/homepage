@@ -59,6 +59,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/rshwndsz/rshwndsz.github.io.git"
+    "deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/rshwndsz/rshwndsz.github.io.git",
+    "test": "echo \"No testing yet!\""
   }
 }
