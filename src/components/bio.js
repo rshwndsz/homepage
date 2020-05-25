@@ -9,7 +9,9 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
-import { rhythm } from "../utils/typography"
+import { Link } from "gatsby"
+import Icon from "./icon"
+import getIcon from "../utils/getIcon"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -25,6 +27,7 @@ const Bio = () => {
         siteMetadata {
           author {
             name
+            education
             summary
           }
           social {
@@ -42,9 +45,8 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        flexDirection: `column`,
         alignItems: `center`,
-        justifyContent: `center`,
       }}
     >
       <Image
@@ -59,6 +61,16 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
+      <h1> Russel Shawn Dsouza</h1>
+
+      <p> {author.education} </p>
+      <div>
+        <a href="https://github.com/rshwndsz/"><Icon name={'github'} icon={getIcon('github')}/></a>
+        <a href="https://linkedin.com/in/rshwndsz/"><Icon name={'linkedin'} icon={getIcon('linkedin')}/></a>
+        <a href="mailto:rshwndsz@gmail.com"><Icon name={'email'} icon={getIcon('email')}/></a>
+        <a href="mailto:russel.171ec143@nitk.edu.in"><Icon name={'email'} icon={getIcon('email')} /></a>
+      </div>
+
     </div>
   )
 }

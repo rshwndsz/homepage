@@ -15,12 +15,9 @@ const Layout = ({ title, children }) => {
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
+
       <main> {children} </main>
 
-      <footer >
-        Here be dragons 🐉.
-        Built with {` `} <a href="https://www.gatsbyjs.org">Gatsby</a>.
-      </footer>
     </div>
   )
 }

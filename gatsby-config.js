@@ -3,6 +3,7 @@ module.exports = {
     title: `Russel's Homepage`,
     author: {
       name: `Russel Shawn Dsouza`,
+      education: `Electronics & Communications @ NITK, India`,
       summary: `Undergrad @ National Institute of Technology Karnataka, India`,
     },
     description: `My personal website`,
