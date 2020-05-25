@@ -19,6 +19,10 @@ module.exports = {
         link: '/'
       },
       {
+        name: 'blog',
+        link: '/blog'
+      },
+      {
         name: 'projects',
         link: 'https://github.com/rshwndsz/'
       },
