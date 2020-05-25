@@ -1,5 +1,7 @@
 # Personal Homepage
 
+[![Build Status](https://travis-ci.com/rshwndsz/rshwndsz.github.io.svg?branch=master)](https://travis-ci.com/rshwndsz/rshwndsz.github.io)
+
 Source code for my personal website at [rshwndsz.github.io](https://rshwndsz.github.io) built with [Gatsby](https://gatsbyjs.org).
 
 The following is the license for GatsbyJS:
