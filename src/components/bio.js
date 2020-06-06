@@ -42,39 +42,23 @@ const Bio = () => {
 
   const { author, social } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-        flexDirection: `column`,
-        alignItems: `center`,
-      }}
-    >
+    <div style={{ display: `flex`, flexDirection: `column`, alignItems: `center` }}>
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
-        style={{
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
+        style={{ marginBottom: 0, minWidth: 50, borderRadius: `100%` }}
+        imgStyle={{ borderRadius: `50%` }}
       />
-      <h1> Russel Shawn Dsouza</h1>
 
-      <p> {author.education} </p>
-      <div
-        style={{
-          display: `flex`,
-          flexDirection: `row`,
-          paddingRight: `${rhythm(1.5)}`
-        }}
-      >
-        <a href="https://github.com/rshwndsz/"><Icon name={'github'} icon={getIcon('github')}/></a>
-        <a href="https://linkedin.com/in/rshwndsz/"><Icon name={'linkedin'} icon={getIcon('linkedin')}/></a>
-        <a href="mailto:rshwndsz@gmail.com"><Icon name={'email'} icon={getIcon('email')}/></a>
-        <a href="mailto:russel.171ec143@nitk.edu.in"><Icon name={'email'} icon={getIcon('email')} /></a>
+      <h1>Russel Shawn Dsouza</h1>
+
+      <p>{author.education}</p>
+
+      <div style={{ display: `flex`, flexDirection: `row` }}>
+        <a href="https://github.com/rshwndsz/"><Icon name={'GitHub Profile'} icon={getIcon('github')} color="#211F1F"/></a>
+        <a href="https://linkedin.com/in/rshwndsz/"><Icon name={'LinkedIn Profile'} icon={getIcon('linkedin')} color="#0687c9"/></a>
+        <a href="mailto:rshwndsz@gmail.com"><Icon name={'NITK mail'} icon={getIcon('email')} color="#211F1F" /></a>
+        <a href="mailto:russel.171ec143@nitk.edu.in"><Icon name={'Personal mail'} icon={getIcon('email')} color="#d44638" /></a>
       </div>
 
     </div>
