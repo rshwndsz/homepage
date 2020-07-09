@@ -28,7 +28,7 @@ module.exports = {
       },
       {
         name: 'cv',
-        link: 'https://github.com/rshwndsz/resume/blob/master/CV.pdf'
+        link: 'https://raw.githubusercontent.com/rshwndsz/resume/master/CV.pdf'
       }
     ],
   },
