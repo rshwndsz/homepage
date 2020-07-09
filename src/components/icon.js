@@ -1,21 +1,20 @@
 import React from "react"
 
-const Icon = ({ name, icon, color }) => {
+const Icon = ({ name, icon, color, width, height }) => {
   return (
     <svg style={{
         display: `flex`,
-        justifyContent: `center`,
         alignItems: `center`,
+        justifyContent: `center`,
         justifyItems: `center`,
-        width: `1.4em`,
-        height: `1.4em`,
+        width: `${width || '1.4em'}`,
+        height: `${height || '1.4em'}`,
         strokeWidth: 0,
         stroke: `${color}`,
         fill: `${color}`,
         fontStyle: `normal`,
         fontWeight: `normal`,
         margin: `.4em`,
-        textAlign: `center`,
         fontVariant: `normal`,
         textTransform: `none`,
     }}

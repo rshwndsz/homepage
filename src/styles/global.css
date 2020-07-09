@@ -1,0 +1,23 @@
+html {
+    background-color: #181a1b;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    color: #e8e6e3;
+}
+
+a, a:hover {
+    text-shadow: none;
+    background-image: none;
+}
+
+.underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.15s ease-in;
+}
+.underline--magical:hover {
+    background-size: 100% 88%;
+}

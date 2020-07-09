@@ -52,13 +52,18 @@ const Bio = () => {
 
       <h1>Russel Shawn Dsouza</h1>
 
-      <p>{author.education}</p>
+      <p>
+        Electronics & Communications Undergrad @ 
+        <span className="underline--magical">
+          <a href="https://nitk.ac.in" style={{fontWeight: '600'}}>NITK, India</a>
+        </span>
+      </p>
 
       <div style={{ display: `flex`, flexDirection: `row` }}>
-        <a href="https://github.com/rshwndsz/"><Icon name={'GitHub Profile'} icon={getIcon('github')} color="#211F1F"/></a>
-        <a href="https://linkedin.com/in/rshwndsz/"><Icon name={'LinkedIn Profile'} icon={getIcon('linkedin')} color="#0687c9"/></a>
-        <a href="mailto:rshwndsz@gmail.com"><Icon name={'NITK mail'} icon={getIcon('email')} color="#211F1F" /></a>
-        <a href="mailto:russel.171ec143@nitk.edu.in"><Icon name={'Personal mail'} icon={getIcon('email')} color="#d44638" /></a>
+        <a href="https://github.com/rshwndsz/"><Icon name={'GitHub Profile'} icon={getIcon('github')} color="#e8e6e3" height="1.2em" width="1.2em"/></a>
+        <a href="https://linkedin.com/in/rshwndsz/"><Icon name={'LinkedIn Profile'} icon={getIcon('linkedin')} color="#0687c9" height="1.23em"/></a>
+        <a href="mailto:rshwndsz@gmail.com"><Icon name={'NITK mail'} icon={getIcon('email')} color="#84fab0" height="1.34em"/></a>
+        <a href="mailto:russel.171ec143@nitk.edu.in"><Icon name={'Personal mail'} icon={getIcon('email')} color="#ff8177" height="1.35em"/></a>
       </div>
 
     </div>
