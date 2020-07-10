@@ -23,11 +23,7 @@ module.exports = {
         link: '/blog'
       },
       {
-        name: 'projects',
-        link: 'https://github.com/rshwndsz/'
-      },
-      {
-        name: 'cv',
+        name: 'resume',
         link: 'https://raw.githubusercontent.com/rshwndsz/resume/master/CV.pdf'
       }
     ],

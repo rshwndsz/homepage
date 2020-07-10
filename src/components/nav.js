@@ -19,7 +19,7 @@ const NavBar = ({ menuLinks }) => (
             <ul style={{ display: `flex`, flex: 1 }}>
               {menuLinks.map(link => (
                 <li
-                  className='underline--magical'
+                  className="underline--magical"
                   key={link.name}
                   style={{
                     fontSize: `${rhythm(8 / 10)}`,
