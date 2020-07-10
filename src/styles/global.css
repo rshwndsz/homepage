@@ -2,10 +2,11 @@
 :root {
     --black: #181a1b;
     --grey:  #424242;
+    --darkerGrey: #2b2b2b;
+    --darkestGrey: #202324;
     --white: #e8e6e3;
     --green: #84fab0;
     --blue:  #8fd3f4;
-    --darkGrey: #2b2b2b;
 }
 
 /* === Main ===  */
@@ -36,16 +37,16 @@ a, a:hover {
 /* === Timeline CSS === */
 /* The line */
 .vertical-timeline.vertical-timeline-custom-line::before {
-  background: var(--darkGrey);
+  background: var(--darkerGrey);
 }
 
 /* Content box */
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-content {
-    background: var(--grey);
+    background: var(--darkerGrey);
     box-shadow: none;
 }
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-content {
-    background: var(--grey);
+    background: var(--darkerGrey);
     box-shadow: none;
 }
 /* Content arrow */
@@ -58,13 +59,12 @@ a, a:hover {
 
 /* Icon container's border */
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
-    background: var(--black);
-    box-shadow:  -10px 10px 16px #0b0c0d, 
-                 10px -10px 16px #252829;
+    background: #131516;
+    box-shadow: rgb(9, 10, 10) -10px 10px 16px, rgb(29, 32, 33) 10px -10px 16px;
 }
 
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-icon {
-    background: var(--grey);
-    box-shadow: none;
+    background: #131516;
+    box-shadow: rgb(9, 10, 10) -10px 10px 16px, rgb(29, 32, 33) 10px -10px 16px;
 }
 
