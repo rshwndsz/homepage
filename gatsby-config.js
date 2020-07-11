@@ -13,13 +13,24 @@ module.exports = {
       github: `rshwndsz`,
       linkedin: `rshwndsz`,
     },
+    skills: {
+      "Programming Languages": ["C++", "Python", "MATLAB", "JavaScript", "C", "Verilog", "ngSPICE"],
+      "Frameworks & Libraries": {
+        "Deep learning": ["PyTorch", "Keras", "scikit-learn"],
+        "Data Science": ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
+        "Image processing": ["OpenCV", "Pillow", "MATLAB"],
+        "Web development": ["React", "Gatsby", "Express", "Node", "MongoDB", "GraphQL"],
+      },
+      "Hardware": ["Raspberry Pi", "Arduino", "Xilinx Artix 7 FPGA"],
+      "Spoken Languages": ["English", "Hindi", "Kannada", "Konkani"]
+    },
     timelineData: [ 
       {
         "type": "publication",
         "endDate": "FEB 2020",
-        "description" : "Lal, S., Dsouza, R., Maneesh, M., Kanfade, A., Kumar, A., Perayil, G., Alabhya, K., Chanchal,A.K. and Kini, J. \
-          'A Robust Method for Nuclei Segmentation of H&E Stained Histopathology Images.' \
-          2020,  7th  International  Conference  on  Signal  Processing  and  Integrated  Networks  (SPIN)(pp. 453–458).  IEEE"
+        "title": "A Robust Method for Nuclei Segmentation of H&E Stained Histopathology Images",
+        "subtitle": "Lal, S., Dsouza, R., Maneesh, M., Kanfade, A., Kumar, A., Perayil, G., Alabhya, K., Chanchal, A.K. and Kini, J. ",
+        "description": "7th International Conference on Signal Processing and Integrated Networks(SPIN) (pp. 453–458). IEEE",
       },
       {
         "type": "research",
