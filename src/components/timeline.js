@@ -1,4 +1,5 @@
 import React from 'react'
+import { rhythm } from '../utils/typography'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import SchoolIcon from '@material-ui/icons/School';
@@ -11,19 +12,14 @@ const getTimelineIcon = (type) => {
   switch (type) {
     case "research": 
       return <SchoolIcon />
-      break
     case "work": 
       return <WorkIcon />
-      break
     case "publication":
       return <StarIcon />
-      break
     case "project": 
       return <BuildIcon />
-      break
     case "education": 
       return <ApartmentIcon />
-      break
   }
 }
 
@@ -34,21 +30,68 @@ const getTimelineDate = (element) => {
     return `${element.endDate}`
   if (!element.endDate)
     return `${element.startDate}`
+
   return `${element.startDate} - ${element.endDate}`
 }
 
 const getClassName = (type) => {
   switch(type) {
-    case "project":
     case "publication":
+      return "vertical-timeline-element--publication"
     case "research":
       return "vertical-timeline-element--work"
     case "work":
       return "vertical-timeline-element--work"
-      break;
     case "education":
       return "vertical-timeline-element--education"
-      break;
+  }
+}
+
+const contentTitleStyle = (type) => {
+  switch(type) {
+    case "publication":
+      return {
+        fontSize: `${rhythm(3/4)}`,
+      }
+    case "research":
+    case "work":
+    case "education":
+      return {
+        fontSize: `${rhythm(3/4)}`,
+      }
+  }
+}
+
+const contentSubtitleStyle = (type) => {
+  switch(type) {
+    case "publication":
+      return {
+        fontSize: `${rhythm(1/2)}`,
+        paddingTop: `${rhythm(1/4)}`,
+        fontStyle: 'italic',
+      }
+    case "research":
+    case "education":
+    case "work":
+      return {
+        fontSize: `${rhythm(5/8)}`,
+        marginTop: `${rhythm(1/8)}`,
+      }
+  }
+}
+
+const contentDescriptionStyle = (type) => {
+  switch(type) {
+    case "publication":
+      return {
+        fontSize: `${rhythm(5/8)}`,
+      }
+    case "research":
+    case "education":
+    case "work":
+      return {
+        fontSize: `${rhythm(5/8)}`,
+      }
   }
 }
 
@@ -62,13 +105,17 @@ const TimelineElements = ({data}) => (
         icon      = { getTimelineIcon(element.type) }
       >
         {element.title &&
-          <h3 className="vertical-timeline-element-title">{element.title}</h3>
+        <h3 className="vertical-timeline-element-title" style={contentTitleStyle(element.type)}>
+          {element.title}
+        </h3>
         }
         {element.subtitle &&
-          <h4 className="vertical-timeline-element-subtitle">{element.subtitle}</h4>
+        <h4 className="vertical-timeline-element-subtitle" style={contentSubtitleStyle(element.type)}>
+          {element.subtitle}
+        </h4>
         }
         {element.description &&
-          <p>{element.description}</p>
+        <p style={contentDescriptionStyle(element.type)}>{element.description}</p>
         }
       </VerticalTimelineElement>
     ))}

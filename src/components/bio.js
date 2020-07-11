@@ -50,7 +50,7 @@ const Bio = () => {
         imgStyle={{ borderRadius: `50%` }}
       />
 
-      <h1>Russel Shawn Dsouza</h1>
+      <h1>{author.name}</h1>
 
       <p>
         Electronics & Communications Undergrad @ 
@@ -65,7 +65,6 @@ const Bio = () => {
         <a href="mailto:rshwndsz@gmail.com"><Icon name={'NITK mail'} icon={getIcon('email')} color="#84fab0" height="1.34em"/></a>
         <a href="mailto:russel.171ec143@nitk.edu.in"><Icon name={'Personal mail'} icon={getIcon('email')} color="#ff8177" height="1.35em"/></a>
       </div>
-
     </div>
   )
 }

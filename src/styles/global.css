@@ -40,31 +40,51 @@ a, a:hover {
   background: var(--darkerGrey);
 }
 
-/* Content box */
-.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-content {
-    background: var(--darkerGrey);
-    box-shadow: none;
-}
-.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-content {
-    background: var(--darkerGrey);
-    box-shadow: none;
-}
-/* Content arrow */
+/* WORK */
+/* Work -> Arrow */
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-content-arrow {
     border-right: 7px solid var(--grey);
 }
-.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-content .vertical-timeline-element-content-arrow {
-    border-right: 7px solid var(--grey);
-}
-
-/* Icon container's border */
+/* Work -> Icon */
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
     background: #131516;
     box-shadow: rgb(9, 10, 10) -10px 10px 16px, rgb(29, 32, 33) 10px -10px 16px;
 }
+/* Work -> Content */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-content {
+    background: var(--darkerGrey);
+    box-shadow: none;
+}
 
+/* EDUCATION */
+/* Education -> Arrow */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-content .vertical-timeline-element-content-arrow {
+    border-right: 7px solid var(--grey);
+}
+/* Education -> Icon */
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-icon {
     background: #131516;
     box-shadow: rgb(9, 10, 10) -10px 10px 16px, rgb(29, 32, 33) 10px -10px 16px;
+}
+/* Education -> Content */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-content {
+    background: var(--darkerGrey);
+    box-shadow: none;
+}
+
+/* PUBLICATION */
+/* Publication -> Arrow */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--publication .vertical-timeline-element-content .vertical-timeline-element-content-arrow {
+    border-right: 7px solid var(--grey);
+}
+/* Publication -> Icon */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--publication .vertical-timeline-element-icon {
+    background: #131516;
+    box-shadow: rgb(9, 10, 10) -10px 10px 16px, rgb(29, 32, 33) 10px -10px 16px;
+}
+/* Publication -> Content */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--publication .vertical-timeline-element-content {
+    background: var(--darkerGrey);
+    box-shadow: none;
 }
 
