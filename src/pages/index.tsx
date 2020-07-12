@@ -17,9 +17,8 @@ type Data = {
 }
 
 const Index = ({ data }: PageProps<Data>) => {
-  const siteTitle = data.site.siteMetadata
   return (
-    <Layout title={siteTitle}>
+    <Layout>
       <SEO title="Home" />
       <Bio />
     </Layout>
