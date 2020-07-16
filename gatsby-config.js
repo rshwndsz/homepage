@@ -13,17 +13,36 @@ module.exports = {
       github: `rshwndsz`,
       linkedin: `rshwndsz`,
     },
-    skills: {
-      "Programming Languages": ["C++", "Python", "MATLAB", "JavaScript", "C", "Verilog", "ngSPICE"],
-      "Frameworks & Libraries": {
-        "Deep learning": ["PyTorch", "Keras", "scikit-learn"],
-        "Data Science": ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
-        "Image processing": ["OpenCV", "Pillow", "MATLAB"],
-        "Web development": ["React", "Gatsby", "Express", "Node", "MongoDB", "GraphQL"],
+    skillData: [
+      {
+        "type": "Programming Languages",
+        "skills": ["C++", "Python", "MATLAB", "JavaScript", "C", "Verilog", "ngSPICE"]
       },
-      "Hardware": ["Raspberry Pi", "Arduino", "Xilinx Artix 7 FPGA"],
-      "Spoken Languages": ["English", "Hindi", "Kannada", "Konkani"]
-    },
+      {
+        "type": "Deep Learning",
+        "skills": ["Pytorch", "Keras", "scikit-learn"]
+      },
+      {
+        "type": "Data Science",
+        "skills": ["Pandas", "NumPy", "Matplotlib", "Seaborn"]
+      },
+      {
+        "type": "Image Processing",
+        "skills": ["OpenCV", "Pillow", "MATLAB"],
+      },
+      {
+        "type": "Web Development",
+        "skills": ["React", "Gatsby", "Express", "Node", "MongoDB", "GraphQL"],
+      },
+      {
+        "type": "Hardware",
+        "skills": ["Raspberry Pi", "Arduino", "Xilinx Artix 7 FPGA"],
+      },
+      {
+        "type": "Spoken Languages",
+        "skills": ["English", "Hindi", "Kannada", "Konkani"],
+      },
+    ],
     timelineData: [ 
       {
         "type": "publication",
