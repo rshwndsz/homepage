@@ -115,7 +115,7 @@ const TimelineElements = ({data}) => (
         </h4>
         }
         {element.description &&
-        <p style={contentDescriptionStyle(element.type)}>{element.description}</p>
+        <p style={contentDescriptionStyle(element.type)} dangerouslySetInnerHTML={{__html: element.description}}></p>
         }
       </VerticalTimelineElement>
     ))}

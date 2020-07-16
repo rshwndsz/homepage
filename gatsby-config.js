@@ -49,7 +49,9 @@ module.exports = {
         "endDate": "FEB 2020",
         "title": "A Robust Method for Nuclei Segmentation of H&E Stained Histopathology Images",
         "subtitle": "Lal, S., Dsouza, R., Maneesh, M., Kanfade, A., Kumar, A., Perayil, G., Alabhya, K., Chanchal, A.K. and Kini, J. ",
-        "description": "7th International Conference on Signal Processing and Integrated Networks(SPIN) (pp. 453–458). IEEE",
+        "description": "- 7th International Conference on Signal Processing and Integrated Networks(SPIN) (pp. 453–458). IEEE <br /> \
+        - Published in IEEE Xplore effective from 20-04-2020. \
+        ",
       },
       {
         "type": "research",
@@ -57,7 +59,11 @@ module.exports = {
         "endDate": "FEB 2020",
         "title": "Winter Research Intern",
         "subtitle": "Deep Learning Lab, NITK",
-        "description": "Worked on the segmentation and grading of kidney, liver, and bladder cancer from histopathology images",
+        "description": "- Worked on the segmentation and grading of kidney, liver cancer from histopathology images <br/> \
+        - Worked on the detection of Urothelial Carcinoma from whole slide images with average dimensions of 80000x50000 <br/> \
+        - Built an open-source repository benchmarking segmentation models on histopathology datasets <br/> \
+        - Presented a report on various semantic and instance segmentation methods <br/> \
+        ",
       },
       {
         "type": "research",
@@ -65,7 +71,8 @@ module.exports = {
         "endDate": "JUN 2019",
         "title": "Summer Research Intern",
         "subtitle": "Deep Learning Lab, NITK",
-        "description": "Worked on the nuclear segmentation of H&E stained histopathology images of kidney tissues",
+        "description": "- Worked on the efficient implementation of image processing algorithms on large datasets <br/> \
+        - Worked on reproducing the results of seminal papers in the field of automated histopathology for the nuclear segmentation of histopathology images of kidney tissues.  ",
       },
       {
         "type": "work",
@@ -73,7 +80,8 @@ module.exports = {
         "endDate": "APR 2019",
         "title": "Frontend Developer & UI Designer",
         "subtitle": "IRIS, NITK",
-        "description": "Worked on the frontend of IRIS-the student managed digital portal of NITK.",
+        "description": "- Worked on building the frontend of IRIS-the official student managed digital portal of NITK, with more than \
+        five thousand daily active users including students, faculty, administrators, and alumni.",
       },
       {
         "type": "work",
@@ -81,7 +89,7 @@ module.exports = {
         "endDate": "JUN 2018",
         "title": "Python Developer",
         "subtitle": "Pinnacle Media, Manipal",
-        "description": "Worked on real-time face detection and recognition with OpenCV on a Rasbperry Pi",
+        "description": "- Built and deployed real-time face detection and recognition, using OpenCV, dlib, and scikit-learn, on a Raspberry Pi as a part of an 'Employee Attendance' system.",
       },
     ],
     menuLinks: [
