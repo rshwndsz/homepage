@@ -38,8 +38,8 @@ const getClassName = (type) => {
   switch(type) {
     case "publication":
       return "vertical-timeline-element--publication"
+    case "project":
     case "research":
-      return "vertical-timeline-element--work"
     case "work":
       return "vertical-timeline-element--work"
     case "education":
@@ -53,6 +53,7 @@ const contentTitleStyle = (type) => {
       return {
         fontSize: `${rhythm(3/4)}`,
       }
+    case "project":
     case "research":
     case "work":
     case "education":
@@ -70,6 +71,7 @@ const contentSubtitleStyle = (type) => {
         paddingTop: `${rhythm(1/4)}`,
         fontStyle: 'italic',
       }
+    case "project":
     case "research":
     case "education":
     case "work":
@@ -86,6 +88,7 @@ const contentDescriptionStyle = (type) => {
       return {
         fontSize: `${rhythm(5/8)}`,
       }
+    case "project":
     case "research":
     case "education":
     case "work":
