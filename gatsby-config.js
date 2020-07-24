@@ -13,7 +13,18 @@ module.exports = {
       github: `rshwndsz`,
       linkedin: `rshwndsz`,
     },
+    interestData: [
+      "Neuroscience of Vision",
+      "Neuroscience of Motor control",
+      "Computer Vision",
+      "Cybernetics",
+      "Mixed Reality",
+    ],
     skillData: [
+      {
+        "type": "Research Areas",
+        "skills": ["Computer Vision", "Image Processing", "Signal Processing", "Medical Imaging"]
+      },
       {
         "type": "Programming Languages",
         "skills": ["C++", "Python", "MATLAB", "JavaScript", "C", "Verilog", "ngSPICE"]
@@ -46,8 +57,7 @@ module.exports = {
     timelineData: [ 
       {
         "type":        "project",
-        "startDate":   "JUL 2020",
-        "endDate":     "PRESENT",
+        "startDate":   "PRESENT",
         "title":       "Satellite Detection",
         "subtitle":    "Detecting satellites in images from low-cost telescopes",
         "description": "Working on the design and development of a model to detect orbiting objects in the geostationary ring, \

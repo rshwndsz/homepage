@@ -107,6 +107,20 @@ const TimelineElements = ({data}) => (
         key       = { index }
         icon      = { getTimelineIcon(element.type) }
       >
+        {element.type &&
+        <div style={{
+          position: "relative",
+          float: "right",
+          background: "#424242",
+          marginTop: `-${rhythm(1)}`,
+          marginRight: `-${rhythm(1)}`,
+          borderRadius: `0 4px 0 4px`,
+          padding: `${rhythm(1/8)} ${rhythm(1/2)} ${rhythm(1/8)} ${rhythm(1/2)}`,
+          }}
+        >
+          {element.type}
+        </div>
+        }
         {element.title &&
         <h3 className="vertical-timeline-element-title" style={contentTitleStyle(element.type)}>
           {element.title}

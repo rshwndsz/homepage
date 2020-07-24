@@ -38,6 +38,7 @@ a, a:hover {
 /* The line */
 .vertical-timeline.vertical-timeline-custom-line::before {
   background: var(--darkerGrey);
+  margin-bottom: -8px;
 }
 
 /* WORK */
