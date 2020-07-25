@@ -71,7 +71,7 @@ module.exports = {
         "endDate":     "JUL 2020",
         "title":       "Image denoising",
         "description": "- Reproduced a very deep persistent memory network to perform image restoration by removing noise and \
-        predicting uncorrupted images. \
+        predicting uncorrupted images. <br />\
         - The model was trained on images from the \
         <a href='https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/'>Berkeley Segmentation Dataset</a> (BSDS300) \
         and tested on a modified version of the CIFAR10 dataset. \
