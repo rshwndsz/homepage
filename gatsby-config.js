@@ -95,9 +95,11 @@ module.exports = {
         "type":        "research",
         "icon":        "flare",
         "endDate":     "MAR 2020",
-        "title":       "NavTrack: A portable obtacle tracker for the rehabilitation of spatial neglect",
+        "title":       "NavTrack: A portable obstacle tracker for the rehabilitation of spatial neglect",
         "subtitle":    "HEPIA, Geneva",
-        "description": "Rescinded due to COVID-19."
+        "description": "- Recieved a grant of CHF 4200 to conduct research at \
+        Haute École Du Paysage, D'ingénierie Et D'architecture De Genève under Prof. Flörent Gluck. <br />\
+        - <strong>Rescinded due to COVID-19.</strong>"
       },
       {
         "type":        "publication",
