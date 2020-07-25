@@ -71,6 +71,7 @@ export const pageQuery = graphql`
         interestData
         timelineData {
             type
+            icon
             startDate
             endDate
             title

@@ -57,6 +57,7 @@ module.exports = {
     timelineData: [ 
       {
         "type":        "project",
+        "icon":        "tool",
         "startDate":   "PRESENT",
         "title":       "Satellite Detection",
         "subtitle":    "Detecting satellites in images from low-cost telescopes",
@@ -68,6 +69,7 @@ module.exports = {
       },
       {
         "type":        "project",
+        "icon":        "tool",
         "endDate":     "JUL 2020",
         "title":       "Image denoising",
         "description": "- Reproduced a very deep persistent memory network to perform image restoration by removing noise and \
@@ -79,6 +81,7 @@ module.exports = {
       },
       {
         "type":        "project",
+        "icon":        "tool",
         "startDate":   "JUN 2020",
         "endDate":     "PRESENT",
         "title":       "Melanoma Classification",
@@ -89,7 +92,16 @@ module.exports = {
         "
       },
       {
+        "type":        "research",
+        "icon":        "flare",
+        "endDate":     "MAR 2020",
+        "title":       "NavTrack: A portable obtacle tracker for the rehabilitation of spatial neglect",
+        "subtitle":    "HEPIA, Geneva",
+        "description": "Rescinded due to COVID-19."
+      },
+      {
         "type":        "publication",
+        "icon":        "star",
         "endDate":     "FEB 2020",
         "title":       "A Robust Method for Nuclei Segmentation of H&E Stained Histopathology Images",
         "subtitle":    "Lal, S., Dsouza, R., Maneesh, M., Kanfade, A., Kumar, A., Perayil, G., Alabhya, K., Chanchal, A.K. and Kini, J. ",
@@ -99,18 +111,21 @@ module.exports = {
       },
       {
         "type":        "research",
+        "icon":        "hat",
         "startDate":   "DEC 2019",
         "endDate":     "FEB 2020",
         "title":       "Winter Research Intern",
         "subtitle":    "Deep Learning Lab, NITK",
-        "description": "- Worked on the segmentation and grading of kidney, liver cancer from histopathology images <br/> \
-        - Worked on the detection of Urothelial Carcinoma from whole slide images with average dimensions of 80000x50000 <br/> \
-        - Built an open-source repository benchmarking segmentation models on histopathology datasets <br/> \
-        - Presented a report on various semantic and instance segmentation methods <br/> \
+        "description": "- Worked on the segmentation and grading of kidney, liver cancer from histopathology images. <br/> \
+        - Worked on the detection of Urothelial Carcinoma from whole slide images with average dimensions of 80000x50000. <br/> \
+        - Built an open-source repository benchmarking segmentation models on histopathology datasets. <br/> \
+        - Presented a report comparing various semantic and instance segmentation methods \
+        for the nuclear segmentation of histopathology images. <br/> \
         ",
       },
       {
         "type":        "project",
+        "icon":        "tool",
         "endDate":     "DEC 2019",
         "title":       "Brain tumour Segmentation",
         "description": "Reproduced state-of-the-art multi-class semantic segmentation models in Keras/TFv1 \
@@ -121,6 +136,7 @@ module.exports = {
       },
       {
         "type":        "project",
+        "icon":        "tool",
         "startDate":   "AUG 2019",
         "endDate":     "SEP 2019",
         "title":       "Ponzi detector",
@@ -134,26 +150,39 @@ module.exports = {
         "
       },
       {
-        "type": "project",
-        "startDate": "JUL 2019",
-        "endDate": "AUG 2019",
-        "title": "Fake news detector",
-        "subtitle": "Predicting the truth level of news articles",
+        "type":        "project",
+        "icon":        "tool",
+        "startDate":   "JUL 2019",
+        "endDate":     "AUG 2019",
+        "title":       "Fake news detector",
+        "subtitle":    "Predicting the truth level of news articles",
         "description": "- Built a model to classify news articles into 6 different categories based on their truth level. <br/> \
         - The model was trained on the LIAR-PLUS dataset containing news articles and fact-checking justifications from trusted sources. \
         "
       },
       {
         "type":        "research",
+        "icon":        "hat",
         "startDate":   "MAY 2019",
         "endDate":     "JUN 2019",
         "title":       "Summer Research Intern",
         "subtitle":    "Deep Learning Lab, NITK",
-        "description": "- Worked on the efficient implementation of image processing algorithms on large datasets <br/> \
+        "description": "- Worked on the efficient implementation of image processing algorithms on large datasets. <br/> \
         - Worked on reproducing the results of seminal papers in the field of automated histopathology for the nuclear segmentation of histopathology images of kidney tissues.  ",
       },
       {
+        "type":        "project",
+        "icon":        "tool",
+        "endDate":     "APR 2019",
+        "title":       "STAP Radar",
+        "subtitle":    "Space Time Adaptive Processing",
+        "description": "- This project involved presenting a report on the current state of STAP in Radar Signal Processing. <br /> \
+        - The report contained a MATLAB simulation of a radar implementing STAP. \
+        "
+      },
+      {
         "type":        "work",
+        "icon":        "work",
         "startDate":   "AUG 2018",
         "endDate":     "APR 2019",
         "title":       "Frontend Developer & UI Designer",
@@ -162,20 +191,12 @@ module.exports = {
         five thousand daily active users including students, faculty, administrators, and alumni.",
       },
       {
-        "type": "project",
-        "endDate": "APR 2019",
-        "title": "STAP Radar",
-        "subtitle": "Space Time Adaptive Processing",
-        "description": "- This project involved presenting a report on the current state of STAP in Radar Signal Processing. <br /> \
-        - The report contained a MATLAB simulation of a radar implementing STAP. \
-        "
-      },
-      {
-        "type":        "work",
-        "startDate":   "MAY 2018",
-        "endDate":     "JUN 2018",
-        "title":       "Python Developer",
-        "subtitle":    "Pinnacle Media, Manipal",
+        "type":      "work",
+        "icon":      "work",
+        "startDate": "MAY 2018",
+        "endDate":   "JUN 2018",
+        "title":     "Python Developer",
+        "subtitle":  "Pinnacle Media, Manipal",
         "description": "- Built and deployed real-time face detection and recognition, using OpenCV, dlib, and scikit-learn, on a Raspberry Pi as a part of an 'Employee Attendance' system.",
       },
     ],

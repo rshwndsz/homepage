@@ -2,22 +2,33 @@ import React from 'react'
 import { rhythm } from '../utils/typography'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
-import SchoolIcon from '@material-ui/icons/School';
-import WorkIcon from '@material-ui/icons/Work';
-import StarIcon from '@material-ui/icons/Star';
-import BuildIcon from '@material-ui/icons/Build';
-import ApartmentIcon from '@material-ui/icons/Apartment';
+import SchoolIcon from '@material-ui/icons/School'
+import WorkIcon from '@material-ui/icons/Work'
+import StarIcon from '@material-ui/icons/Star'
+import BuildIcon from '@material-ui/icons/Build'
+import ApartmentIcon from '@material-ui/icons/Apartment'
+import FlareIcon from '@material-ui/icons/Flare'
 
-const getTimelineIcon = (type) => {
-  switch (type) {
+const getTimelineIcon = (icon) => {
+  switch (icon) {
+    case "flare":
+      return <FlareIcon />
+
+    case "hat":
     case "research": 
       return <SchoolIcon />
+
     case "work": 
       return <WorkIcon />
+
+    case "star":
     case "publication":
       return <StarIcon />
+
+    case "tool":
     case "project": 
       return <BuildIcon />
+
     case "education": 
       return <ApartmentIcon />
   }
@@ -105,7 +116,7 @@ const TimelineElements = ({data}) => (
         className = { getClassName(element.type) }
         date      = { getTimelineDate(element) }
         key       = { index }
-        icon      = { getTimelineIcon(element.type) }
+        icon      = { getTimelineIcon(element.icon) }
       >
         {element.type &&
         <div style={{
