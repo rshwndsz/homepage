@@ -50,6 +50,10 @@ module.exports = {
         "skills": ["Raspberry Pi", "Arduino", "Xilinx Artix 7 FPGA"],
       },
       {
+        "type": "Tools",
+        "skills": ["git", "vim", "PyCharm", "bash/zsh/fish", "Linux", "Docker", "TravisCI"]
+      },
+      {
         "type": "Spoken Languages",
         "skills": ["English", "Hindi", "Kannada", "Konkani"],
       },
