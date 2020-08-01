@@ -57,6 +57,10 @@ a, a:hover {
     background: var(--darkerGrey);
     box-shadow: none;
 }
+/* Work -> Date */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-date {
+    font-weight: 600;
+}
 
 /* EDUCATION */
 /* Education -> Arrow */
@@ -74,6 +78,10 @@ a, a:hover {
     background: var(--darkerGrey);
     box-shadow: none;
 }
+/* Education -> Date */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-content .vertical-timeline-element-date {
+    font-weight: 600;
+}
 
 /* PUBLICATION */
 /* Publication -> Arrow */
@@ -90,5 +98,9 @@ a, a:hover {
     padding-top: 2rem;
     background: var(--darkerGrey);
     box-shadow: none;
+}
+/* Publication -> Date */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--publication .vertical-timeline-element-content .vertical-timeline-element-date {
+    font-weight: 600;
 }
 
