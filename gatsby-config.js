@@ -68,6 +68,16 @@ module.exports = {
         "
       },
       {
+        "type": "research",
+        "icon": "flare",
+        "endDate": "JUL 2020",
+        "title": "Full-time Research Intern",
+        "subtitle": "ML Lab, RBCCPS, IISc",
+        "description": "- Selected to work as a full-time intern on a project involving Simultaneous Localization & Mapping (SLAM) <br /> \
+        - <strong>Rescinded as the NITK administration refused to provide permission to drop a semester.</strong> \
+        "
+      },
+      {
         "type":        "project",
         "icon":        "tool",
         "endDate":     "JUL 2020",
