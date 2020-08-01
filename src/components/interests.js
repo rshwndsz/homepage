@@ -3,18 +3,27 @@ import { rhythm } from '../utils/typography'
 
 const InterestElements = ({data}) => ( 
   <>
-    {data.map((element, index, _) => (
-      <span style={{
-        textDecoration: 'underline',
-        textDecorationStyle: 'dotted',
-        textUnderlineOffset: `${rhythm(1/8)}`,
-        textDecorationColor: '#84fab0',
-        margin: `${rhythm(1/8)} ${rhythm(1/2)} ${rhythm(1/2)} 0`,
+    <ul style={{
+      display: 'table-cell',
+      listStyle: 'none',
+      padding: '0',
+      margin: '0',
       }}
-      > 
-        {element} 
-      </span>
-    ))}
+    >
+      {data.map((element, index, _) => (
+        <li style={{
+          display: 'inline-block',
+          textDecoration: 'underline',
+          textDecorationStyle: 'dotted',
+          textUnderlineOffset: `${rhythm(1/8)}`,
+          textDecorationColor: '#84fab0',
+          paddingRight: `${rhythm(1/2)}`,
+        }}
+        > 
+          {element} 
+        </li>
+      ))}
+    </ul>
   </>
 )
 

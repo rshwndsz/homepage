@@ -53,6 +53,7 @@ a, a:hover {
 }
 /* Work -> Content */
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-content {
+    padding-top: 2rem;
     background: var(--darkerGrey);
     box-shadow: none;
 }
@@ -69,6 +70,7 @@ a, a:hover {
 }
 /* Education -> Content */
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-content {
+    padding-top: 2rem;
     background: var(--darkerGrey);
     box-shadow: none;
 }
@@ -85,6 +87,7 @@ a, a:hover {
 }
 /* Publication -> Content */
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--publication .vertical-timeline-element-content {
+    padding-top: 2rem;
     background: var(--darkerGrey);
     box-shadow: none;
 }

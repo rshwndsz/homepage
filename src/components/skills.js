@@ -5,33 +5,29 @@ const SkillElements = ({data}) => (
   <>
     {data.map((element, index, _) => (
       <div>
-        <div style={{
-          fontSize: `${rhythm(3/4)}`,
-          fontWeight: '600',
-          }}
-        >
-          {element.type}
-        </div>
+        <h3> {element.type} </h3>
 
-        <div style={{
-          display: 'flex',
-          flexDirection: 'row',
-          marginLeft: '2em'
+        <ul style={{
+          display: 'table-cell',
+          padding: '0',
+          margin: '0',
+          listStyle: 'none',
           }}
         >
           {element.skills.map((skill, index, _) => (
-            <span style={{
+            <li style={{
+              display: 'inline-block',
               textDecoration: 'underline',
               textDecorationStyle: 'dotted',
               textUnderlineOffset: `${rhythm(1/8)}`,
               textDecorationColor: '#84fab0',
-              margin: `${rhythm(1/8)} ${rhythm(1/2)} ${rhythm(1/2)} 0`,
+              paddingRight: `${rhythm(1/2)}`,
             }}
             > 
               {skill} 
-            </span>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     ))}
   </>

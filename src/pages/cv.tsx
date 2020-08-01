@@ -35,21 +35,36 @@ const TimelinePage = ({ data }: PageProps<Data>) => {
 
             <ResumeButton text="View Resume as PDF" />
 
-            <h2 style={{borderBottom: '3px solid #84fab0', lineHeight: '0.1em', marginBottom: `${rhythm(1)}`}}>
+            <h2 style={{
+                borderBottom: '3px solid #84fab0',
+                lineHeight: '0.1em',
+                marginBottom: `${rhythm(1)}`,
+                }}
+            >
                 <span style={{background: '#181a1b', padding: `0 ${rhythm(1/4)}`}}>Research Interests</span>
             </h2>
             <div style={{margin: '0 0 3em 2em'}}>
                 <Interests data={data.site.siteMetadata.interestData} />
             </div>
 
-            <h2 style={{borderBottom: '3px solid #84fab0', lineHeight: '0.1em', marginBottom: `${rhythm(1)}`}}>
+            <h2 style={{
+                borderBottom: '3px solid #84fab0',
+                lineHeight: '0.1em',
+                marginBottom: `${rhythm(1)}`
+                }}
+            >
                 <span style={{background: '#181a1b', padding: `0 ${rhythm(1/4)}`}}>Skills</span>
             </h2>
             <div style={{margin: '0 0 3em 2em'}}>
                 <Skills data={data.site.siteMetadata.skillData} />
             </div>
 
-            <h2 style={{borderBottom: '3px solid #84fab0', lineHeight: '0.1em', marginBottom: `${rhythm(1)}`}}>
+            <h2 style={{
+                borderBottom: '3px solid #84fab0',
+                lineHeight: '0.1em',
+                marginBottom: `${rhythm(1)}`
+                }}
+            >
                 <span style={{background: '#181a1b', padding: `0 ${rhythm(1/4)}`}}>Timeline</span>
             </h2>
             <Timeline data={data.site.siteMetadata.timelineData} />

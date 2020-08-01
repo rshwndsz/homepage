@@ -58,21 +58,11 @@ const getClassName = (type) => {
   }
 }
 
-const contentTitleStyle = (type) => {
-  switch(type) {
-    case "publication":
-      return {
-        fontSize: `${rhythm(3/4)}`,
-      }
-    case "project":
-    case "research":
-    case "work":
-    case "education":
-      return {
-        fontSize: `${rhythm(3/4)}`,
-      }
+const contentTitleStyle = (type) => ( 
+  {
+    fontSize: `${rhythm(3/4)}`,
   }
-}
+)
 
 const contentSubtitleStyle = (type) => {
   switch(type) {
@@ -93,21 +83,11 @@ const contentSubtitleStyle = (type) => {
   }
 }
 
-const contentDescriptionStyle = (type) => {
-  switch(type) {
-    case "publication":
-      return {
-        fontSize: `${rhythm(5/8)}`,
-      }
-    case "project":
-    case "research":
-    case "education":
-    case "work":
-      return {
-        fontSize: `${rhythm(5/8)}`,
-      }
+const contentDescriptionStyle = (type) => ( 
+  {
+    fontSize: `${rhythm(5/8)}`,
   }
-}
+)
 
 const TimelineElements = ({data}) => (
   <>
@@ -120,11 +100,11 @@ const TimelineElements = ({data}) => (
       >
         {element.type &&
         <div style={{
-          position: "relative",
-          float: "right",
+          display: "inline-block",
+          position: "absolute",
+          top: "0px",
+          right: "0px",
           background: "#424242",
-          marginTop: `-${rhythm(1)}`,
-          marginRight: `-${rhythm(1)}`,
           borderRadius: `0 4px 0 4px`,
           padding: `${rhythm(1/8)} ${rhythm(1/2)} ${rhythm(1/8)} ${rhythm(1/2)}`,
           }}
