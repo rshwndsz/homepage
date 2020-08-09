@@ -116,6 +116,18 @@ module.exports = {
         - <strong>Rescinded due to COVID-19.</strong>"
       },
       {
+        "type": "project",
+        "icon": "tool",
+        "startDate": "MAR 2020",
+        "endDate": "JUN 2020",
+        "title": "Muon Physics",
+        "subtitle": "Using deep learning for particle physics",
+        "description": "- Designed a custom model to classify muon momenta using a tabular dataset of variables and parameters. <br /> \
+        - The model was trained on monte-carlo simulated data from the Cathode Strip Chambers (CSC) \
+        at the CMS experiment of the Large Hadron Collider at CERN.\
+        "
+      },
+      {
         "type":        "publication",
         "icon":        "star",
         "endDate":     "FEB 2020",
