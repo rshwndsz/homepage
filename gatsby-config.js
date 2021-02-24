@@ -14,11 +14,10 @@ module.exports = {
       linkedin: `rshwndsz`,
     },
     interestData: [
-      "Neuroscience of Vision",
-      "Neuroscience of Motor control",
       "Computer Vision",
-      "Cybernetics",
       "Mixed Reality",
+      "Low power computing",
+      "Information Security"
     ],
     skillData: [
       {
@@ -27,7 +26,7 @@ module.exports = {
       },
       {
         "type": "Programming Languages",
-        "skills": ["C++", "Python", "MATLAB", "JavaScript", "C", "Verilog", "ngSPICE"]
+        "skills": ["Python", "C", "C++", "Golang", "JavaScript", "Verilog", "ngSPICE"]
       },
       {
         "type": "Deep Learning",
@@ -35,7 +34,7 @@ module.exports = {
       },
       {
         "type": "Data Science",
-        "skills": ["Pandas", "NumPy", "Matplotlib", "Seaborn"]
+        "skills": ["Pandas", "NumPy", "Matplotlib", "Google BigQuery", "SQL"]
       },
       {
         "type": "Image Processing",
@@ -62,13 +61,12 @@ module.exports = {
       {
         "type":        "project",
         "icon":        "tool",
-        "startDate":   "PRESENT",
-        "title":       "Satellite Detection",
-        "subtitle":    "Detecting satellites in images from low-cost telescopes",
-        "description": "Working on the design and development of a model to detect orbiting objects in the geostationary ring, \
-        from sequences of consecutive frames imaging unknown portions of the sky, \
-        as a part of the the <a href='https://kelvins.esa.int/spot-the-geo-satellites/'>spotGEO</a> competition \
-        organised by the European Space Agency (ESA). \
+        "startDate":   "AUG 2020",
+        "endDate":     "PRESENT",
+        "title":       "Night Sight",
+        "subtitle":    "Low light image enhancement on low power devices",
+        "description": "Working on the design of hardware and software optimized algorithms to enable people to \
+        capture vibrant and detailed low-light photos with inexpensive camera sensors.\
         "
       },
       {
@@ -78,7 +76,7 @@ module.exports = {
         "title": "Full-time Research Intern",
         "subtitle": "ML Lab, RBCCPS, IISc",
         "description": "- Selected to work as a full-time intern on a project involving Simultaneous Localization & Mapping (SLAM) <br /> \
-        - <strong>Rescinded as the NITK administration refused to provide permission to drop a semester.</strong> \
+        - <strong>Rescinded due to schedule conflicts arising from COVID-19.</strong> \
         "
       },
       {
