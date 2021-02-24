@@ -92,18 +92,6 @@ module.exports = {
         "
       },
       {
-        "type":        "project",
-        "icon":        "tool",
-        "startDate":   "JUN 2020",
-        "endDate":     "PRESENT",
-        "title":       "Melanoma Classification",
-        "subtitle":    "Identifying skin Melanoma in images of skin lesions",
-        "description": "Working on building an ensemble network of multiple detection models to accurately detect skin cancer, \
-        specifically Melanoma, in images of skin lesions as a part of the \
-        <a href='https://www.kaggle.com/c/siim-isic-melanoma-classification'>SIIM-ISIC Melanoma Classification Challenge</a> on Kaggle. \
-        "
-      },
-      {
         "type":        "research",
         "icon":        "flare",
         "endDate":     "MAR 2020",
