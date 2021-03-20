@@ -17,13 +17,13 @@ const ResumeButton = ({ text, link }) => (
       color: `#e8e6e3`,
       boxShadow: `none`,
       padding: `${rhythm(1/2)}`,
-    }} 
-      href={link || "https://raw.githubusercontent.com/rshwndsz/resume/master/CV.pdf"}
-    > 
+    }}
+      href={link || "https://github.com/rshwndsz/cv/raw/main/CV.pdf"}
+    >
       <span style={{ verticalAlign: 'middle' }}>
         {text || "View Resume"}
       </span>
-      <IconContext.Provider value={{ color: "#ff8177", size: '1.3em', 
+      <IconContext.Provider value={{ color: "#ff8177", size: '1.3em',
         style: { verticalAlign: 'middle', margin: '0 0 0.2em 0.2em' } }}>
         <AiOutlineFilePdf />
       </IconContext.Provider>
